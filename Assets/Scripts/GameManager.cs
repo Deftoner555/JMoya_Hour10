@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
     public Goal blue, green, red, orange;
     private bool isGameOver = true;
     private void Update()
