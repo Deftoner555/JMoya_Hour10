@@ -1,0 +1,4 @@
+(X)-Change footstep sounds
+( )-Allow player to restart game when game over occurs
+(X)-Change shape and speed of bumper
+( )-Audio cue when a goal is made
