@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 1460764}
   m_Layer: 0
   m_Name: RedBall
-  m_TagString: LostBall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -262,7 +262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 3}
       propertyPath: m_LocalScale.x
@@ -351,7 +351,7 @@ Transform:
   - {fileID: 1567484784}
   - {fileID: 1460769}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &338884323
 GameObject:
@@ -431,11 +431,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338884323}
   m_LocalRotation: {x: 0.36032125, y: -0.1518049, z: -0.059285816, w: -0.91848195}
-  m_LocalPosition: {x: -14.516556, y: -24.102503, z: -16.354296}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -29.033112, y: -24.602503, z: -56.041893}
+  m_LocalScale: {x: 1.9309089, y: 1.1896333, z: 1.2277305}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 20462610}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &379365883
 GameObject:
@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 379365884}
   m_Layer: 0
   m_Name: BlueBall
-  m_TagString: LostBall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 461801625}
   m_Layer: 0
   m_Name: OrangeBall
-  m_TagString: LostBall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -718,7 +718,7 @@ Transform:
   m_Children:
   - {fileID: 1040694858}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &684921313
 GameObject:
@@ -730,77 +730,13 @@ GameObject:
   m_Component:
   - component: {fileID: 684921316}
   - component: {fileID: 684921315}
-  - component: {fileID: 684921314}
-  - component: {fileID: 684921317}
   m_Layer: 0
   m_Name: Hazard
-  m_TagString: LostBall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!108 &684921314
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684921313}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 1
-  m_Shape: 0
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 0
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 0
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!65 &684921315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -826,21 +762,8 @@ Transform:
   m_LocalScale: {x: 48.939644, y: 4.8185844, z: 1.5719}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &684921317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684921313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91031e3dee6c9d04db3e330545fc6cec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GameOver: 0
 --- !u!1 &735226318
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +855,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 34.67, y: -176.974, z: -1.246}
 --- !u!1 &792232859
 GameObject:
@@ -959,8 +882,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792232859}
-  m_LocalRotation: {x: 0.31312317, y: -0.61542606, z: -0.2904992, w: -0.6624311}
-  m_LocalPosition: {x: -43.50566, y: -31.011078, z: -38.548138}
+  m_LocalRotation: {x: 0.35961065, y: -0.31149483, z: -0.12844992, w: -0.8701447}
+  m_LocalPosition: {x: -43.506584, y: -31.011238, z: -38.54626}
   m_LocalScale: {x: 2, y: 1.1091315, z: 1.671141}
   m_Children: []
   m_Father: {fileID: 20462610}
@@ -1145,7 +1068,7 @@ Transform:
   m_LocalScale: {x: 15, y: 3, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &882206050
 BoxCollider:
@@ -1154,7 +1077,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882206048}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 21a0b468171a51644902a115417e9251, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1515,7 +1438,7 @@ GameObject:
   - component: {fileID: 1567484779}
   m_Layer: 0
   m_Name: GreenBall
-  m_TagString: LostBall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1849,51 +1772,7 @@ Transform:
   - {fileID: 1655955353}
   - {fileID: 1746083192}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2091742801
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2091742803}
-  - component: {fileID: 2091742802}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2091742802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091742801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e091818888644d4fbebf865014cd275, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ball: {fileID: 684921317}
---- !u!4 &2091742803
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091742801}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.23, y: 2, z: -8.728275}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2543342576983185500
 PrefabInstance:
@@ -1949,6 +1828,10 @@ PrefabInstance:
     - target: {fileID: 2543342576076989976, guid: 3ea786a0406228a43912dfe22488cb78, type: 3}
       propertyPath: m_Name
       value: YellowBall
+      objectReference: {fileID: 0}
+    - target: {fileID: 2543342576076989976, guid: 3ea786a0406228a43912dfe22488cb78, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ea786a0406228a43912dfe22488cb78, type: 3}
