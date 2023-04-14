@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2543342576076989977}
   m_Layer: 0
   m_Name: YellowBall
-  m_TagString: Chaos
+  m_TagString: LostBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
