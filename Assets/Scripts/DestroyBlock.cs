@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class DestroyBlock : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject GameManagerGO;
+    private GameManager GameManagerComp;
     void Start()
     {
-        
+        GameManagerComp = GameManagerGO.GetComponent<GameManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        Destroy(gameObject);
+        GameManagerComp.BrickRemove();
     }
 }
