@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
             if (brickcount == 0)
             {
                 GameWin = true;
-                Debug.Log("Level Complete :)");
+                Debug.Log("Level Complete! :)");
             }
         }
     }

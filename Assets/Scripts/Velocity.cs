@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Velocity : MonoBehaviour
 {
-    private float startSpeed = 50f;
+    private float startSpeed = 40f;
     private void Start()
     {
         Rigidbody rigidbody = GetComponent<Rigidbody>();
