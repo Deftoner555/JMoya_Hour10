@@ -6,15 +6,15 @@ public class GameManager : MonoBehaviour
 {
 
     bool GameOver = false;
-    int ballcount = 5;
+    int ballcount = 2;
 
-    bool GameWin = false;
-    int brickcount = 31;
     public void BallRemove()
     {
         ballcount--;
     }
 
+    bool GameWin = false;
+    int brickcount = 31;
     public void BrickRemove()
     {
         brickcount--;

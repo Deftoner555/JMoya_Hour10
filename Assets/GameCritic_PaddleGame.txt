@@ -1,4 +1,4 @@
 (X)-Change game over conditions
 (X)-Change camera position
 (X)-Change shape and speed of bumper, change allowed movement to X-axis only
-( )-Add breaking blocks as goal
+(X)-Add breaking blocks as goal
