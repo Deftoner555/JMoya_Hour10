@@ -7,14 +7,16 @@ public class GameManager : MonoBehaviour
 
     bool GameOver = false;
     int ballcount = 2;
+    bool GameWin = false;
+    int brickcount = 31;
+    public GameObject textWin;
+    public GameObject textLose;
 
     public void BallRemove()
     {
         ballcount--;
     }
 
-    bool GameWin = false;
-    int brickcount = 31;
     public void BrickRemove()
     {
         brickcount--;
@@ -27,7 +29,7 @@ public class GameManager : MonoBehaviour
             if (ballcount == 0)
             {
                 GameOver = true;
-                Debug.Log("Game Over :(");
+                textLose.SetActive(true);
             }
         }
 
@@ -36,7 +38,7 @@ public class GameManager : MonoBehaviour
             if (brickcount == 0)
             {
                 GameWin = true;
-                Debug.Log("Level Complete! :)");
+                textWin.SetActive(true);
             }
         }
     }
